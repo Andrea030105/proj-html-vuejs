@@ -117,11 +117,5 @@ header {
             }
         }
     }
-
-    .icons-list {
-        li {
-            font-size: 1.2rem;
-        }
-    }
 }
 </style>
