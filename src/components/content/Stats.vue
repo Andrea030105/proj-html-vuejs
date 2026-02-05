@@ -69,7 +69,8 @@ export default {
         width: 100%;
         position: absolute;
         top: 50%;
-        left: 0;
+        left: 50%;
+        transform: translate(-50%, -50%);
         @include fullFlexCenter;
         text-align: center;
         color: $whiteCl;

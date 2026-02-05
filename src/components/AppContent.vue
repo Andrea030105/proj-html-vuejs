@@ -1,5 +1,6 @@
 <script>
 import AboutUs from './content/AboutUs.vue';
+import JhonDoe from './content/JhonDoe.vue';
 import Jumbotron from './content/Jumbotron.vue';
 import Pelicula from './content/Pelicula.vue';
 import Stats from './content/Stats.vue';
@@ -15,6 +16,7 @@ export default {
         YourWatchList,
         Stats,
         Team,
+        JhonDoe,
     }
 }
 </script>
@@ -25,5 +27,6 @@ export default {
     <YourWatchList />
     <Stats />
     <Team />
+    <JhonDoe />
 </template>
 <style lang="scss" scoped></style>
