@@ -35,4 +35,41 @@ export const store = reactive({
       subLink: ["Shop Page", "Product Type"],
     },
   ],
+  menuFooterArray: [
+    {
+      title: "Contact Info",
+      content: [
+        "2/45 Tower Street. New York USA",
+        "Call Us On 0800 840 1010",
+        "Demo@Example.Com",
+      ],
+    },
+    {
+      title: "information",
+      content: [
+        "Product Support",
+        "Checkout",
+        "Report Abuse",
+        "Redeem Voucher",
+        "Order Status",
+      ],
+    },
+    {
+      title: "useful links",
+      content: [
+        "Policies & Rules",
+        "Privacy Policy",
+        "License Policy",
+        "My Account",
+        "Locality",
+      ],
+    },
+    {
+      title: "NEWSLETTER",
+      content: [
+        "Subscribe To Receive Inspiration",
+        "Ideas & News In Your lnbox",
+      ],
+    },
+  ],
 });
