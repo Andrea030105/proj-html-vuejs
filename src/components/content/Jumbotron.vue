@@ -54,11 +54,7 @@ export default {
         }
 
         button {
-            border: none;
-            padding: 10px 15px;
-            text-transform: uppercase;
-            font-size: .6rem;
-            font-weight: bolder;
+            @include mainBtn
         }
     }
 
