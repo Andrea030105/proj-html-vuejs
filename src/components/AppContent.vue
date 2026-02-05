@@ -2,6 +2,7 @@
 import AboutUs from './content/AboutUs.vue';
 import JhonDoe from './content/JhonDoe.vue';
 import Jumbotron from './content/Jumbotron.vue';
+import LatestNews from './content/LatestNews.vue';
 import Pelicula from './content/Pelicula.vue';
 import Stats from './content/Stats.vue';
 import Team from './content/Team.vue';
@@ -17,6 +18,7 @@ export default {
         Stats,
         Team,
         JhonDoe,
+        LatestNews,
     }
 }
 </script>
@@ -28,5 +30,6 @@ export default {
     <Stats />
     <Team />
     <JhonDoe />
+    <LatestNews />
 </template>
 <style lang="scss" scoped></style>
