@@ -40,14 +40,16 @@ export default {
 @use '../../style/patrial/mixin' as *;
 
 .about-container {
+    position: relative;
+
     img {
         width: 100%;
     }
 
     .text {
         width: 50%;
-        position: relative;
-        bottom: 300px;
+        position: absolute;
+        bottom: 50px;
         left: 600px;
         color: $whiteCl;
 
