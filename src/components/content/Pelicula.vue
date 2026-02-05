@@ -126,7 +126,7 @@ export default {
     }
 
     .img-container {
-        min-height: 65px;
+        min-height: 80px;
 
         img {
             width: 20%;
