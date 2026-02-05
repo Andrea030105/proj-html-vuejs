@@ -1,19 +1,17 @@
 <script>
-import { store } from '../store';
 import Jumbotron from './content/Jumbotron.vue';
+import Pelicula from './content/Pelicula.vue';
 
 export default {
-    data() {
-        return {
-            store,
-        }
-    },
+
     components: {
         Jumbotron,
+        Pelicula,
     }
 }
 </script>
 <template>
     <Jumbotron />
+    <Pelicula />
 </template>
 <style lang="scss" scoped></style>
