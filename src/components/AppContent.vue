@@ -1,5 +1,6 @@
 <script>
 import AboutUs from './content/AboutUs.vue';
+import Icons from './content/Icons.vue';
 import JhonDoe from './content/JhonDoe.vue';
 import Jumbotron from './content/Jumbotron.vue';
 import LatestNews from './content/LatestNews.vue';
@@ -19,6 +20,7 @@ export default {
         Team,
         JhonDoe,
         LatestNews,
+        Icons,
     }
 }
 </script>
@@ -31,5 +33,6 @@ export default {
     <Team />
     <JhonDoe />
     <LatestNews />
+    <Icons />
 </template>
 <style lang="scss" scoped></style>
