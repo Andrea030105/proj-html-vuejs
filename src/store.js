@@ -39,36 +39,73 @@ export const store = reactive({
     {
       title: "Contact Info",
       content: [
-        "2/45 Tower Street. New York USA",
-        "Call Us On 0800 840 1010",
-        "Demo@Example.Com",
+        {
+          img: "footer-location-dot-solid",
+          text: "2/45 Tower Street. New York USA",
+        },
+        {
+          img: "footer-phone-solid",
+          text: "Call Us On 0800 840 1010",
+        },
+        {
+          img: "footer-envelope-soli",
+          text: "Demo@Example.Com",
+        },
       ],
     },
     {
       title: "information",
       content: [
-        "Product Support",
-        "Checkout",
-        "Report Abuse",
-        "Redeem Voucher",
-        "Order Status",
+        {
+          text: "Product Support",
+        },
+        {
+          text: "Checkout",
+        },
+        {
+          text: "Report Abuse",
+        },
+        {
+          text: "Redeem Voucher",
+        },
+        {
+          text: "Order Status",
+        },
       ],
     },
     {
       title: "useful links",
       content: [
-        "Policies & Rules",
-        "Privacy Policy",
-        "License Policy",
-        "My Account",
-        "Locality",
+        {
+          text: "Policies & Rules",
+        },
+        {
+          text: "Privacy Policy",
+        },
+        {
+          text: "License Policy",
+        },
+        {
+          text: "My Account",
+        },
+        {
+          text: "Locality",
+        },
       ],
     },
     {
       title: "NEWSLETTER",
       content: [
-        "Subscribe To Receive Inspiration",
-        "Ideas & News In Your lnbox",
+        {
+          text: "Subscribe To Receive Inspiration",
+        },
+        {
+          text: "Ideas & News In Your lnbox",
+        },
+        {
+          hasForm: true,
+          hasBtn: true,
+        },
       ],
     },
   ],
