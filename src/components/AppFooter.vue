@@ -21,7 +21,7 @@ export default {
                         <ul>
                             <li v-for="(itemsArray, i) in item.content" :key="i">
                                 <img v-if="itemsArray.img" :src="`/images/${itemsArray.img}.svg`" alt="">
-                                <p class="m-0">
+                                <p v-if="itemsArray.text" class="m-0">
                                     {{ itemsArray.text }}
                                 </p>
                                 <div v-if="itemsArray.hasForm && itemsArray.hasBtn">
@@ -71,7 +71,6 @@ export default {
             li {
                 font-size: .8rem;
                 display: flex;
-                align-items: center;
                 margin: .6rem 0;
                 color: $grayCl;
 
